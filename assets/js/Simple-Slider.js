@@ -1,0 +1,23 @@
+document.addEventListener("DOMContentLoaded", function() {
+
+    // Initializing the swiper plugin for the slider.
+    // Read more here: http://idangero.us/swiper/api/
+    
+    var mySwiper = new Swiper('.swiper-container', {
+        loop: true,
+        pagination: {
+            el: '.swiper-pagination' ,
+            clickable: true
+        },
+        autoplay: {
+            delay: 3000, // Adjust the delay time (in milliseconds) as per your requirement
+            disableOnInteraction: false // Allow user interaction with the slider (optional)
+        },
+        paginationClickable: true,
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev'
+        }
+    });
+    
+});

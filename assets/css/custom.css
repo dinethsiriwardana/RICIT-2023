@@ -1,0 +1,14 @@
+.hover-text {
+  color: white;
+  transition: color 0.4s ease;
+}
+
+.hover-text:hover {
+  color: #ffc517;
+}
+
+.footer-text {
+  text-align: left;
+  font-size: 20px;
+}
+
